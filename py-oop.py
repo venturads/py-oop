@@ -6,7 +6,7 @@ class User:
         self.name = name
         self.age = age
         self.hobbies = hobbies
-
+        print("Welcome new hire:{}, age: {}")
 kobe = User("Kobe", 41, ['basketball', 'movies'])
 
-print("Welcome new hire: {}, age: {} ".format(kobe.name, kobe.age))
+#print("Welcome new hire: {}, age: {} ".format(kobe.name, kobe.age))
